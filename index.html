@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Vinculos para los inconos de las redes y vinculo al CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <title>Federico Iglesias</title>
+    <link rel="stylesheet" href="css\estilos.css">
+</head>
+<body><!--empieza el menu de inicio en el Header, el cual fue fijado en CSS para que aparezca en todas las subpaginas-->
+        <header>
+        <h1>Federico</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#acerca">Acerca</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#curriculum">Curriculum</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="faq">FAQ</a>
+            <a href="cliente">Cliente</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div>
+
+            <a href="https://www.facebook.com/milnueveochentaydos"><i class="redes"><i class="bi bi-facebook miestilo"></i></a>
+            <a href="https://twitter.com/?search"><i class="redes"><i class="bi bi-twitter miestilo"></i></a>
+            <a href="https://www.instagram.com/fedeito/"><i class="redes"><i class="bi bi-instagram miestilo"></i></a>
+
+        </div>
+        <!--Primer intento de responsive para la barra del menu de Inicio-->
+        <i class="bi bi-list hamburguesa"></i>
+
+    </header>
+                        
+    <main><!--Inicio de la primer seccion de la página, las cuales he dividido on "section"-->
+        <section id="inicio" class="seccion1">
+             <div class="contenedor1">
+
+                <nav class="caja1">
+                    <h2>Hola, soy un </h2>
+                    <p class="textoprogramador">programador</p>
+                    <h2>freelance</h2>
+                    <p class="ubicacion">ubicado en Buenos Aires, Argentina.</p>
+                    <a href="#portfolio"><button type="button" class="botonmistrabajos">Ver Mis Trabajos</button></a>
+                    <a href="#contacto"><button type="button" class="botoncontactame">Contactame</button> <i class="bi bi-arrow-down-circle"></i></a>
+                
+                </nav>
+
+                <nav class="caja2">
+                    <img class="fotoperfil" src="assets/img/foto perfil.jpg" alt="">
+                </nav>   
+            </div>
+            
+            <div class="paginasiguiente">
+
+               <a  href="#acerca"><i class="bi bi-arrow-down-short"></i></a>
+
+            </div>
+                               
+        </section><!--Inicio de la segunda seccion-->
+              
+        <section id="acerca" class="seccion2">
+        
+            <div class="titulocentrado">
+                <p class="titulopagina">Acerca de mi</p>
+                <h2>Conoceme Más</h2>    
+            </div>
+                
+            <div class="contenedor2">
+        
+            <nav class="caja2-1">
+                <p class="textoagrandado">Hola, soy <strong class="subrayadocolor">Federico Iglesias</strong></p>
+                    
+                <p>Soy un Psicólogo y programador con mucha pasión por el diseño de páginas Web.  Disfruto desarrollando websites de manera simple, limpia y sencilla que provea un valor real al usuario final. Muchos clientes han alcanzado excelentes resultados trabajando conmigo. Entregar el trabajo dentro del tiempo y el presupuesto que cumpla con los requisitos de los clientes es mi lema.  
+                </p>
+            </nav>
+                                  
+            <nav class="caja2-2"> 
+                <h1>4</h1>
+                <p>Meses De <strong>Experiencia</strong></p>    
+            </nav>
+            </div>
+        
+            <div class="caja2-3">
+                <nav>
+                    <p>Nombre:</p>
+                    <h3>Federico Iglesias</h3>
+                </nav>
+                <nav>
+                   <p>Email:</p>
+                   <a href="#contacto"><h3 class="subrayado">fedeito@hotmail.com</h3></a>
+                    
+                </nav>
+                <nav>
+                    <p>Fecha de Nacimiento</p>
+                    <h3>5 de Marzo, 1982</h3>
+                </nav>
+                <nav>
+                    <p>Lugar:</p>
+                    <h3>Ciudad de Buenos Aires, Argentina.</h3>
+                </nav>
+         </div>
+             
+    </section><!--incio de la tercer seccion-->
+
+    <section id="servicios" class="seccion3">
+        
+        <div class="titulocentrado">
+            <p class="titulopagina">Que hago?</p>
+            <h2>Como puedo ayudarte con tu proximo proyecto</h2>    
+        </div>
+
+        <div class="recuadros3">
+            <ul>
+                <li>
+                    <i class="bi bi-palette estilologorecuadros"></i>     
+                    <p class="estilotextointermedio">Diseño Grafico</p>              
+                    <p class="estilotextorecuadro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores,onsequatur.</p>
+                </li>
+                <li>
+                    <i class="bi bi-display estilologorecuadros"></i>
+                    <p class="estilotextointermedio">Diseño Web</p>
+                    <p class="estilotextorecuadro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+                </li>
+                <li>
+                    <i class="bi bi-browser-chrome estilologorecuadros"></i>
+                    <p class="estilotextointermedio">Desarrollo Web</p>
+                    <p class="estilotextorecuadro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+                </li>
+                <li>
+                    <i class="bi bi-brush-fill estilologorecuadros"></i>
+                    <p class="estilotextointermedio">Identidad de Marca</p>
+                    <p class="estilotextorecuadro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+                </li>
+                <li>
+                    <i class="bi bi-graph-up estilologorecuadros"></i>
+                    <p class="estilotextointermedio">Analisis de Negocio</p>
+                    <p class="estilotextorecuadro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+                </li>
+                <li>
+                    <i class="bi bi-megaphone estilologorecuadros"></i>
+                    <p class="estilotextointermedio">Marketing Digital</p>
+                    <p class="estilotextorecuadro">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, consequatur.</p>
+                </li>
+                </ul>
+        </div>
+        
+    </section><!--Inicio de la cuarta seccion-->
+
+    <section id="curriculum" class="seccion4">
+        
+        <div class="titulocentrado">
+            <p class="titulopagina">Curriculum</p>
+            <h2>Resumen de mi CV</h2>    
+        </div>
+                     
+        <div class="recuadros4"> <!--esta clase va a contener a las cajas-->
+            
+        <div class="caja4-1">
+            <h3>Mi Educacion</h3>
+            <div class="caja4cv">
+           
+            <h4>Programador WEB Front-End</h4>
+            <h5>UTN / 2022 - 2023</h5>
+            <p class="lineaabajo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ea. Praesentium ipsa est veritatis ab. ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla..</p>  
+            
+                             
+            <h4>Programacion Inicial</h4>
+            <h5>ALURA - Oracle One / 2022 - 2023</h5>
+            <p class="lineaabajo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ea. Praesentium ipsa est veritatis ab. ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla..</p>
+           
+            <h4>Licenciado en Psicologia</h4>
+            <h5>Universidad Abierta Interamericana / 2004-2008</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ea. Praesentium ipsa est veritatis ab. ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla..</p>
+            </div>
+        </div>
+
+        <div class="caja4.2">
+
+            <h3>Mi Experiencia</h3>
+            <div class="caja4cv">
+            <h4>Jr. Front End Developer</h4>
+            <h5>Freelance / 2022 </h5>
+            <p class="lineaabajo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ea. Praesentium ipsa est veritatis ab. ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla..</p>
+            
+            <h4>Desarrollador HTML </h4>
+            <h5>Freelance / 2022</h5>
+            <p class="lineaabajo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ea. Praesentium ipsa est veritatis ab. ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla..</p>
+           
+            <h4>Programador en CSS</h4>
+            <h5>Freelance / 2022</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, ea. Praesentium ipsa est veritatis ab. ipsum dolor sit amet consectetur adipisicing elit. Eius, nulla..</p>
+        </div>
+        </div>
+    </div>
+             
+    <h3 class="titulohabilidades">Mis Habilidades</h3>  <!--Abajo distintas clases para configurar las barras de porcentajes en formato html y css-->
+    
+    <div class="porcentajes">
+      
+            <div class="habilidadesizquierda">
+            
+                <div class="subtitulo-barras">
+                <p>Diseño WEB</p>
+                <p>50%</p>
+            </div>
+            <div class="barras">
+                <div class="barra1 porcentaje-cyan-dw">
+                </div>
+                <div class="barra2 porcentaje-gris-dw">
+                </div>
+            </div>
+
+            <div  class="subtitulo-barras">
+            <p class="subtitulos-barras">HTML/CSS</p>
+            <p class="subtitulos-barras">60%</p>
+            </div>
+            <div class="barras">
+                <div class="barra1 porcentaje-cyan-hc">
+                </div>
+                <div class="barra2 porcentaje-gris-hc">
+                </div>
+            </div>
+
+            <div class="subtitulo-barras">
+                <p class="subtitulos-barras">JavaScript</p>
+                <p class="subtitulos-barras">10%</p>
+            </div>
+            <div class="barras">
+                <div class="barra1 porcentaje-cyan-js">
+                </div>
+                <div class="barra2 porcentaje-gris-js">
+                </div>
+            </div>
+        </div>
+
+        <div class="habilidadesderecha">
+
+            <div class="subtitulo-barras">
+                <p class="subtitulos-barras">React JS</p>
+                <p class="subtitulos-barras">5%</p>
+                </div>
+                <div class="barras">
+                    <div class="barra1 porcentaje-cyan-react">
+                    </div>
+                    <div class="barra2 porcentaje-gris-react">
+                    </div>
+                </div>
+                <div class="subtitulo-barras">
+                    <p class="subtitulos-barras">Angular JS</p>
+                    <p class="subtitulos-barras">0%</p>
+                </div>
+                <div class="barras">
+                    <div class="barra1 porcentaje-cyan-angular">
+                    </div>
+                    <div class="barra2 porcentaje-gris-angular">
+                    </div>
+                </div>
+                <div class="subtitulo-barras">
+                    <p class="subtitulos-barras">Bootsrap</p>
+                    <p class="subtitulos-barras">30%</p>
+                </div>
+                <div class="barras">
+                    <div class="barra1 porcentaje-cyan-boo">
+                    </div>
+                    <div class="barra2 porcentaje-gris-boo">
+                </div>
+        </div>
+    </div>
+</div>
+
+    <nav>
+        <a download="Curriculum Vitae" href="" class="cv">Descargar CV</a>
+    </nav>
+
+    </section>
+
+    <section id="portfolio" class="seccion5"><!--Inicio de la quinta seccion de PORTFOLIO -->
+        
+        <div class="titulocentrado">
+            <p class="titulopagina">Portfolio</p>
+            <h2>Algunos de mis mas recientes proyectos</h2>    
+
+        </div>
+        
+        <nav class="linksportfolio">
+            <a class="subrayadocolor" href="">Todos</a>
+            <a href="">Detalles</a>
+            <a href="">Mackups</a>
+            <a href="">YouTube Videos</a>
+            <a href="">Vimeo Videos</a>
+           
+        </nav>
+
+        <div class="recuadros5">
+            <img src="assets\img\portfolio1.jpg" alt="">
+            <img src="assets\img\portfolio2.jpg" alt="">
+            <img src="assets\img\portfolio3.jpg" alt="">
+            <img src="assets\img\portfolio4.jpg" alt="">
+            <img src="assets\img\portfolio5.jpg" alt="">
+            <img src="assets\img\portfolio6.jpg" alt="">
+           </div>
+            </section>
+       
+        </main>
+       
+        <footer> <!--La ultima seccion fue integrada en el footer en vez de un seccion -->
+
+            <div class="seccion8" id="contacto">
+
+                <nav class="seccion8-1">
+                    <p class="pcontacto"><strong>Pongámonos en contacto</strong> </p>
+                    <p class="pcontacto2">Disfruto discutiendo nuevos proyectos y desafios de diseño. Por favor, compartir cuanta informacion sea posible, asi podemos darte lo mejor de entrada.
+                    </p>
+                
+                    <p><strong>Vivo en:</strong></p>
+                    <p class="pcontacto2">Ciudad Autónoma de Buenos Aires, Argentina</p>
+                
+                    <p><strong>Llamame:</strong></p>
+                    <p class="pcontacto2">(+54) 9 11 6884 0503</p>
+
+                        
+                    <a href="https://twitter.com/?search"><i class="bi bi-twitter miestilo"></i></a>
+                    <a href="https://www.facebook.com/milnueveochentaydos"><i class="bi bi-facebook miestilo"></i></a>
+                    <a href="https://www.instagram.com/fedeito/"><i class="bi bi-instagram miestilo"></i></a>
+                    <a href="https://github.com/licfedericoiglesias"><i class="bi bi-github miestilo"></i></a>
+                </nav>
+                
+                <nav class="seccion8-2">          
+                <p class="pcontacto"> <strong>Presupuestá tu proyecto</strong> </p>
+                <form action="">
+                        <label class="texto-form">Cuál es tu Nombre:</label>
+                        <input type="text" class="formulario">
+                        <label class="texto-form">Tu dirección de e-mail:</label>
+                        <input type="email" class="formulario">
+                        <label class="texto-form">Cómo puedo ayudarte?</label>
+                        <textarea class="formulario"></textarea>
+                        <button type="submit" class="enviar-form">Enviar  &#9758; </button>
+                </form>
+            </nav> 
+            </div>
+       
+       
+    </footer>
+
+</body>
+</html>
